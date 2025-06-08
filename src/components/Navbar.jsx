@@ -38,10 +38,10 @@ const Navbar = () => {
         }`}
       >
         <div className="flex flex-col items-start p-8 gap-6 text-xl">
-          <a href="#home" onClick={toggleSidebar} className="hover:text-cyan-400 font-semibold">Home</a>
-          <a href="#about" onClick={toggleSidebar} className="hover:text-cyan-400 font-semibold">About</a>
-          <a href="#video-line" onClick={toggleSidebar} className="hover:text-cyan-400 font-semibold">Video Line</a>
-          <a href="#contact" onClick={toggleSidebar} className="hover:text-cyan-400 font-semibold">Contact</a>
+          <a href="#home" onClick={toggleSidebar} className="hover:text-cyan-400 font-semibold hover:underline decoration-white">Home</a>
+          <a href="#about" onClick={toggleSidebar} className="hover:text-cyan-400 font-semibold hover:underline decoration-white">About</a>
+          <a href="#video-line" onClick={toggleSidebar} className="hover:text-cyan-400 font-semibold hover:underline decoration-white">Video Line</a>
+          <a href="#contact" onClick={toggleSidebar} className="hover:text-cyan-400 font-semibold hover:underline decoration-white">Contact</a>
         </div>
       </div>
     </>

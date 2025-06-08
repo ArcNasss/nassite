@@ -4,7 +4,7 @@ const About = () => {
   return (
     <section id="about" className="bg-black text-white py-20 md:py-40 px-4 md:px-6">
       <div className="max-w-5xl mx-auto flex flex-col md:flex-row items-center gap-10">
-        <div className="w-full md:w-1/3 flex justify-center">
+        <div className=" md:w-1/3 flex justify-center">
           <img
             src="about-image.png"
             alt="Nasril Ilham Saputra"

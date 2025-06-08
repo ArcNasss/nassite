@@ -3,7 +3,8 @@ import { FaGithub, FaInstagram, FaFacebook } from 'react-icons/fa'
 
 const HomePage = () => {
   return (
-    <div className="bg-black text-white min-h-screen w-full flex flex-col md:flex-row items-center px-6 md:px-8 relative">
+    <section id='home'>
+      <div className="bg-black text-white min-h-screen w-full flex flex-col md:flex-row items-center px-6 md:px-8 relative">
       {/* Konten utama */}
       <div className="max-w-4xl md:ml-20 gap-y-6 flex flex-col justify-center mt-16 md:mt-0">
         <p className="text-cyan-400 text-xl mt-4 md:text-2xl italic">Hi, I'm Nasril!</p>
@@ -52,6 +53,7 @@ const HomePage = () => {
         </a>
       </div>
     </div>
+    </section>
   );
 };
 
