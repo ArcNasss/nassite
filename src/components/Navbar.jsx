@@ -12,7 +12,7 @@ const Navbar = () => {
     <>
       {/* Desktop Navbar */}
       <nav className="w-full fixed top-6 z-50 hidden md:flex justify-center">
-        <div className="bg-[#1b1b1b] text-white px-20 py-6 rounded-full border border-gray-600 flex gap-10 shadow-lg text-xl">
+        <div className="bg-[#1b1b1b] text-white px-16 py-6 rounded-full border border-gray-600 flex gap-10 shadow-lg text-lg">
           <a href="#home" className="hover:text-cyan-400 font-semibold">Home</a>
           <a href="#about" className="hover:text-cyan-400 font-semibold">About</a>
           <a href="#video-line" className="hover:text-cyan-400 font-semibold">Video Line</a>
