@@ -27,13 +27,13 @@ const HomePage = () => {
 
           {/* Tombol media sosial (inline saat mobile, samping saat desktop) */}
           <div className="flex gap-4 md:hidden">
-            <a href="https://github.com/ArcNasss" target="" rel="noopener noreferrer" className="hover:text-cyan-400 text-xl">
+            <a href="https://github.com/ArcNasss" target="" rel="noopener noreferrer" className="hover:text-gray-600 text-xl">
               <FaGithub />
             </a>
-            <a href="https://instagram.com/nasriillham" target="" rel="noopener noreferrer" className="hover:text-cyan-400 text-xl">
+            <a href="https://instagram.com/nasriillham" target="" rel="noopener noreferrer" className="hover:text-gray-600 text-xl">
               <FaInstagram />
             </a>
-            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="hover:text-cyan-400 text-xl">
+            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="hover:text-gray-600 text-xl">
               <FaFacebook />
             </a>
           </div>
@@ -42,13 +42,13 @@ const HomePage = () => {
 
       {/* Media sosial untuk desktop */}
       <div className="hidden md:flex md:absolute md:right-32 md:bottom-48 flex-col gap-6 text-7xl mt-10 md:mt-0">
-        <a href="https://github.com/ArcNasss" target="" rel="noopener noreferrer" className="hover:text-cyan-400">
+        <a href="https://github.com/ArcNasss" target="" rel="noopener noreferrer" className="hover:text-gray-600">
           <FaGithub />
         </a>
-        <a href="https://instagram.com/nasriillham" target="" rel="noopener noreferrer" className="hover:text-cyan-400">
+        <a href="https://instagram.com/nasriillham" target="" rel="noopener noreferrer" className="hover:text-gray-600">
           <FaInstagram />
         </a>
-        <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="hover:text-cyan-400">
+        <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="hover:text-gray-600">
           <FaFacebook />
         </a>
       </div>

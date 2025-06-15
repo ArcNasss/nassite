@@ -5,6 +5,7 @@ import HomePage from './pages/HomePage'
 import About from './pages/About'
 import VideoLine from './pages/VideoLine'
 import Contact from './pages/Contact'
+import Education from './pages/Education'
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Navbar />
       <HomePage />
       <About />
+      <Education/>
       <VideoLine />
       <Contact />
     </div>

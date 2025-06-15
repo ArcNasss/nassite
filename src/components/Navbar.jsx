@@ -39,7 +39,7 @@ const Navbar = () => {
         <div className="bg-[#1b1b1b] text-white px-16 py-6 rounded-full border border-gray-600 flex gap-10 shadow-lg text-lg">
           <a href="#home" className="hover:text-cyan-400 font-semibold">Home</a>
           <a href="#about" className="hover:text-cyan-400 font-semibold">About</a>
-          <a href="#video-line" className="hover:text-cyan-400 font-semibold">Video Line</a>
+          <a href="#education" className="hover:text-cyan-400 font-semibold">Education</a>
           <a href="#contact" className="hover:text-cyan-400 font-semibold">Contact</a>
         </div>
       </nav>
@@ -64,7 +64,7 @@ const Navbar = () => {
           {[
             { href: '#home', label: 'Home' },
             { href: '#about', label: 'About' },
-            { href: '#video-line', label: 'Video Line' },
+            { href: '#education', label: 'Education' },
             { href: '#contact', label: 'Contact' },
           ].map((item) => (
             <a
