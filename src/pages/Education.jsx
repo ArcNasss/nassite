@@ -32,7 +32,7 @@ const Education = () => {
         {/* Vertical Line */}
         <div className="hidden md:block absolute left-1/2 transform -translate-x-1/2 h-full w-1 bg-gray-700" />
 
-        <div className="flex flex-col ">
+        <div className="flex flex-col gap-2">
           {educationData.map((edu, index) => (
             <div
               key={index}
